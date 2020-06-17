@@ -1,0 +1,667 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+/*Barra de navegación*/
+nav.navbar {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 10px #00000029;
+    opacity: 1;
+}
+.navbar-brand{
+    margin: 0 0 0 50px;
+    width: 120px;
+}
+.navbar-nav{
+    margin: 20px 50px;
+}
+.logo-nav{
+    width: 100%;
+    margin-left: 20%;
+}
+.material-icons#menu{
+    color: #707070;
+}
+.nav-link{
+  color:#6E6E6E;
+  margin-top: 3px;
+  padding-right: 33px;
+  font-weight: 500;
+
+}
+.nav-link:hover{
+    color: #6CBB8E;
+}
+.nav-link:active, .nav-link.active-page{
+    color: #707070;
+}
+.nav-link:focus{
+    text-decoration: underline;
+  color: #6CBB8E;
+}
+.boton-menu{
+  position: absolute;
+  left: 10%;
+}
+.boton2-menu{
+    margin-left: 40%;
+    border: 1px solid #707070;
+    border-radius: 5px;
+    width: 138px;
+    height: 42px;
+    text-align: center;
+    letter-spacing: 0.52px;
+    color: #707070;
+    text-transform: uppercase;
+    opacity: 1;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.boton2-menu:hover{
+  background: #DEDEDE 0% 0% no-repeat padding-box;
+  color: #707070;
+}
+.boton2-menu:active{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+}
+.boton2-menu:focus{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 2px solid #6CBB8E;
+}
+
+
+/*CARDS*/
+/*Somos lo que necesitas - CARDS*/
+.section-card{
+  background: #203348 0% 0% no-repeat padding-box;
+  opacity: 1;
+  padding: 5% 10%;
+}
+.card-seccion6{
+    width: 230px;
+    height: 280px;
+    border: 2px solid #FFFFFF;
+    border-radius: 6px;
+    opacity: 1;
+    background: #203348 0% 0% no-repeat padding-box;
+}
+.texto1-seccion6{
+  text-align: center;
+  font-size:35px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.42px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+.texto2-seccion6{
+  text-align: center;
+  font-size:35px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.42px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+.imagen-seccion6{
+  margin-top: 16px;
+  width: 48.5px;
+  height: 56px;
+}
+.titulocard1-seccion6{
+  margin-top: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.24px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+.titulocard2-seccion6{
+  margin-top: 29px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.24px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+.titulocard3-seccion6{
+  margin-top: 29px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.24px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+.titulocard4-seccion6{
+  margin-top: 29px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.24px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.boton1-seccion6{
+  width: 168px;
+  height: 46px;
+  margin-top: 15px;
+  font-size:16px;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0;
+  color: #203348;
+  opacity: 1;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+}
+.boton2-seccion6{
+  width: 168px;
+  margin-top: 25px;
+  height: 46px;
+  font-size:16px;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0;
+  opacity: 1;
+}
+.boton3-seccion6{
+  width: 168px;
+  margin-top: 25px;
+  height: 46px;
+  font-size:16px;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0;
+  opacity: 1;
+}
+.boton4-seccion6{
+  width: 168px;
+  margin-top: 25px;
+  height: 46px;
+  font-size:16px;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0;
+  opacity: 1;
+}
+.botones-s6{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  color: #203348;
+}
+.botones-s6:hover{
+  background: #4F7196 0% 0% no-repeat padding-box;
+  color: #FFFFFF;
+}
+.botones-s6:active{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  color: #203348;
+}
+.botones-s6:focus{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 2px solid #6CBB8E;
+  color: #203348;
+}
+
+
+
+
+/*FOOTER*/
+.seccion7{
+  position: static;
+  height: 80px;
+  border-bottom: solid 5px;
+  border-color: #F2F5F4;
+}
+.texto1-seccion7{
+  position: absolute;
+  margin-left: 21%;
+  margin-top: 20px;
+  font-size:14px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.56px;
+  color: #707070;
+  opacity: 1;
+  z-index: 2001;
+}
+
+.texto2-seccion7{
+  position: absolute;
+  margin-left: 30%;
+  margin-top: 20px;
+  font-size:14px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.56px;
+  color: #707070;
+  opacity: 1;
+  z-index: 2002;
+}
+
+.logo-seccion7{
+  margin-left: 66%;
+  margin-top: 20px;
+  height: 48px;
+  width: 158px;
+  display: flex;
+
+}
+/*footer Brainbow*/
+.footer-brainbow{
+  position: static;
+  height: 75px;
+  padding-top: 20px;
+  padding-left: 1020px;
+}
+
+.texto1-footer{
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.64px;
+  color: #707070;
+  opacity: 1;
+  margin-right: 40px;
+}
+
+.texto2-footer{
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.64px;
+  color: #707070;
+  opacity: 1;
+  margin-right: 40px;
+  text-decoration: none;
+}
+
+.texto3-footer{
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.64px;
+  color: #707070;
+  opacity: 1;
+}
+
+.links-footer:hover{
+  color: #6CBB8E;
+}
+
+.links-footer:active{
+  color: #707070;
+  text-decoration: none;
+}
+
+.links-footer:focus{
+  text-decoration: underline;
+  color: #6CBB8E;
+}
+
+/*footer*/
+.footer-brainbow{
+  position: static;
+  height: 75px;
+  padding-top: 20px;
+  padding-left: 1020px;
+}
+
+.texto1-footer{
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.64px;
+  color: #707070;
+  opacity: 1;
+  margin-right: 40px;
+}
+
+.texto2-footer{
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.64px;
+  color: #707070;
+  opacity: 1;
+  margin-right: 40px;
+  text-decoration: none;
+}
+
+.texto3-footer{
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.64px;
+  color: #707070;
+  opacity: 1;
+}
+
+.links-footer:hover{
+  color: #6CBB8E;
+}
+
+.links-footer:active{
+  color: #707070;
+  text-decoration: none;
+}
+
+.links-footer:focus{
+  text-decoration: underline;
+  color: #6CBB8E;
+}
+
+
+
+/*------------------MEDIA QUERIES--------------*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+/*Somos lo que necesitas*/
+.texto1-seccion6{
+    text-align: center;
+    font-size:20px;
+}
+.texto2-seccion6{
+    text-align: center;
+    font-size:20px;
+}
+    
+.card-seccion6{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.seccion7{
+    position: static;
+    height: 170px;
+    border-bottom: solid 5px;
+    border-color: #F2F5F4;
+  }
+
+  .texto1-seccion7{
+    position: absolute;
+    margin-left: 9%;
+    margin-top: 93px;
+    font-size:14px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.56px;
+    color: #707070;
+    opacity: 1;
+    z-index: 2001;
+  }
+
+  .texto2-seccion7{
+    position: absolute;
+    margin-left: 9%;
+    margin-top: 125px;
+    font-size:14px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.56px;
+    color: #707070;
+    opacity: 1;
+    z-index: 2002;
+  }
+
+  .logo-seccion7{
+    position: absolute;
+    margin-left: -7%;
+    margin-top: 29px;
+    height: 48px;
+    width: 141px;
+
+  }
+    /*footer*/
+
+  .footer-brainbow{
+    height: 170px;
+    padding-left: 0px;
+  }
+
+  .texto1-footer{
+    position: absolute;
+    margin-right: 0;
+    margin-left: 9%;
+  }
+
+  .texto2-footer{
+    position: absolute;
+    margin-right: 0;
+    margin-left: 9%;
+    margin-top: 30px;
+  }
+
+  .texto3-footer{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.64px;
+    color: #707070;
+    opacity: 1;
+  }
+
+  .texto3-footer{
+    position: absolute;
+    margin-left: 75%;
+    margin-top: 95px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+/*Somos lo que necesitas*/
+.texto1-seccion6{
+    text-align: center;
+    font-size:20px;
+}
+.texto2-seccion6{
+    text-align: center;
+    font-size:20px;
+}
+    
+.card-seccion6{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.seccion7{
+    position: static;
+    height: 170px;
+    border-bottom: solid 5px;
+    border-color: #F2F5F4;
+  }
+
+  .texto1-seccion7{
+    position: absolute;
+    margin-left: 9%;
+    margin-top: 93px;
+    font-size:14px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.56px;
+    color: #707070;
+    opacity: 1;
+    z-index: 2001;
+  }
+
+  .texto2-seccion7{
+    position: absolute;
+    margin-left: 9%;
+    margin-top: 125px;
+    font-size:14px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.56px;
+    color: #707070;
+    opacity: 1;
+    z-index: 2002;
+  }
+
+  .logo-seccion7{
+    position: absolute;
+    margin-left: -7%;
+    margin-top: 29px;
+    height: 48px;
+    width: 141px;
+
+  }
+    /*footer*/
+  .texto1-seccion7{
+    margin-left: 8%;
+  }
+  .footer-brainbow{
+    padding-left: 75px;
+  }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+.card-seccion6{
+    margin: 5%;
+}
+
+
+.seccion7{
+    position: static;
+    height: 80px;
+    border-bottom: solid 5px;
+    border-color: #F2F5F4;
+  }
+
+  .texto1-seccion7{
+    position: absolute;
+    margin-left: 12%;
+    margin-top: 28px;
+    font-size:14px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.56px;
+    color: #707070;
+    opacity: 1;
+    z-index: 2001;
+  }
+
+  .texto2-seccion7{
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 28px;
+    font-size:14px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.56px;
+    color: #707070;
+    opacity: 1;
+    z-index: 2002;
+  }
+
+  .logo-seccion7{
+    display: block;
+    margin-left: 69%;
+    margin-top: 21px;
+    height: 38px;
+    width: 130px;
+    position: absolute;
+  }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+/*Somos lo que necesitas*/
+.texto1-seccion6{
+    text-align: center;
+    font-size:40px;
+}
+.texto2-seccion6{
+    text-align: center;
+    font-size:40px;
+}
+
+
+.seccion7{
+    position: static;
+    height: 80px;
+    border-bottom: solid 5px;
+    border-color: #F2F5F4;
+  }
+
+  .texto1-seccion7{
+    position: absolute;
+    margin-left: 13%;
+    margin-top: 20px;
+    font-size:14px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.56px;
+    color: #707070;
+    opacity: 1;
+    z-index: 2001;
+  }
+
+  .texto2-seccion7{
+    position: absolute;
+    margin-left: 24%;
+    margin-top: 20px;
+    font-size:14px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.56px;
+    color: #707070;
+    opacity: 1;
+    z-index: 2002;
+  }
+
+  .logo-seccion7{
+    margin-left: 70%;
+    margin-top: 20px;
+    height: 48px;
+    width: 158px;
+    display: flex;
+  }
+
+  .footer-brainbow{
+    padding-left: 480px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+.boton2-menu{
+    margin-left: 48.5%;
+}
+
+
+ /*footer*/
+
+  .footer-brainbow{
+    padding-left: 700px;
+  }
+}
+

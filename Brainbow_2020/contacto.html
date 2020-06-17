@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>Brainbow</title>
+      <link rel="icon" href="img/logo_iconob.ico">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,500,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./js/brainbow.js"></script>
+
+
+  </head>
+  
+<nav class="navbar sticky-top navbar-expand-lg">
+        <a class="navbar-brand" href="./index.html">
+            <img src="img/logo_brainbow.svg" alt="Logo" loading="lazy" class="d-inline-block aling-top logo-nav">
+        </a> 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i class="material-icons" id="menu">subject</i>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Sobre Brainbow</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sectores.html">Sectores</a>
+            </li>
+            
+            <!--<li class="nav-item">
+               
+                <button id="boton2-menu" class="btn boton2-menu" role="link" onclick="window.location='contacto.html'">Contactar</button>
+            </li>-->
+          </ul>
+          <button id="boton2-menu" class="btn boton2-menu  navbar-text" role="link" onclick="window.location='contacto.html'">Contactar</button>
+        </div>
+      </nav>
+
+
+  <body onload="validar()">
+    <div class="container contenedor1 text-center">
+      <p class="txt1-contacto">¡Hablemos!</p>
+      <p class="txt2-contacto">Estamos felices de responder todas tus preguntas, prometemos responder en el menor tiempo posible.</p>
+        <div class="cont-form" id="cont-form">
+          <p class="txt3-contacto">PONTE EN CONTACTO, RESOLVEREMOS TUS DUDAS</p>
+          <form class="formulario-contacto" action="#" method="post" id="formulario-contacto">
+              <input type="text" class="inputs" name="nombre" id="nombre-contacto" placeholder="Nombre" size="50" required pattern="^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$"><br/>
+              <label id="etiqueta-nombre"></label><br/>
+              <input type="email" class="inputs" name="email" id="email" placeholder="Email" size="50" required pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$"><br/>
+              <label id="etiqueta-email"></label><br/>
+              <input type="tel" name="telefono" id="telefono" placeholder="Teléfono" maxlength="10" required pattern="^\d+$" class="telefono"><br/>
+              <label id="etiqueta-tel"></label><br/>
+              <label for="dudas" class="etiqueta-contacto">¿Cómo podemos ayudarte?</label><br/>
+              <textarea name="dudas" class="dudas" id="dudas" rows="4" cols="54"></textarea><br/>
+              <input type="submit" name="enviar" id="enviar" class="enviar-cont btn" value="Contactar"></code>
+          </form>
+        </div>
+    </div>
+
+    <div class="seccion7">
+      <a href="about.html" class="texto1-seccion7 links-footer">Sobre Brainbow</a>
+      <a href="sectores.html" class="texto2-seccion7 links-footer">Sectores</a>
+      <a href="index.html" class="logo-seccion7"><img src="img/logo_brainbow.svg"></a>
+    </div>
+
+    <footer class="footer-brainbow">
+      <a href="index.html" class="texto1-footer links-footer">Términos y condiciones</a>
+      <a href="https://go4it.mx/Aviso%20de%20Privacidad%20Devising%20Solutions%20SAPI%20de%20CV.PDF" class="texto2-footer links-footer" class="texto2-footer links-footer">Aviso de privacidad</a>
+      <a href="https://go4it.mx/" class="texto3-footer links-footer">© go4it</a>
+    </footer>
+
+  </body>
+
+
+</html>
