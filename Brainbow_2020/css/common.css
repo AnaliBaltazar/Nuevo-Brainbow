@@ -26,7 +26,6 @@ nav.navbar {
   margin-top: 3px;
   padding-right: 33px;
   font-weight: 500;
-
 }
 .nav-link:hover{
     color: #6CBB8E;
@@ -36,11 +35,22 @@ nav.navbar {
 }
 .nav-link:focus{
     text-decoration: underline;
-  color: #6CBB8E;
+    color: #6CBB8E;
+}
+.text-sector{
+  display: none;
 }
 .boton-menu{
   position: absolute;
   left: 10%;
+}
+.contactar{
+  display: none;
+  color: #FFFFFF;
+  font-weight: lighter;
+}
+.logo-blanco{
+  display: none;
 }
 .boton2-menu{
     margin-left: 40%;
@@ -375,6 +385,50 @@ nav.navbar {
 /*------------------MEDIA QUERIES--------------*/
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  body{
+    background: pink;
+  }
+
+/*BARRA DE NAVEGACION*/
+#navbarNav{
+  background: #203348 0% 0% no-repeat padding-box;
+  opacity: 1;
+  padding-bottom: 10%;
+  z-index: 200;
+}
+.nav-link{
+  text-align: left;
+  font-weight: lighter;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+.text-sector{
+  display: inline;
+}
+.negritas-link{
+  font-weight: bold;
+}
+.boton2-menu{
+  display: none;
+}
+.contactar{
+  font-size: 20px;
+  display: block;
+  text-align: left;
+  text-decoration: underline;
+  margin-left: 50px;
+  margin-top: -2%;
+}
+.logo-blanco{
+  display: block;
+  width: 135px;
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 300px;
+}
+
 
 /*Somos lo que necesitas*/
 .texto1-seccion6{
@@ -398,7 +452,7 @@ nav.navbar {
     border-color: #F2F5F4;
   }
 
-  .texto1-seccion7{
+.texto1-seccion7{
     position: absolute;
     margin-left: 9%;
     margin-top: 93px;
@@ -408,10 +462,10 @@ nav.navbar {
     letter-spacing: 0.56px;
     color: #707070;
     opacity: 1;
-    z-index: 2001;
-  }
+    z-index: -1;
+}
 
-  .texto2-seccion7{
+.texto2-seccion7{
     position: absolute;
     margin-left: 9%;
     margin-top: 125px;
@@ -421,17 +475,17 @@ nav.navbar {
     letter-spacing: 0.56px;
     color: #707070;
     opacity: 1;
-    z-index: 2002;
-  }
+    z-index: -1;
+}
 
-  .logo-seccion7{
+.logo-seccion7{
     position: absolute;
     margin-left: -7%;
     margin-top: 29px;
     height: 48px;
     width: 141px;
 
-  }
+}
     /*footer*/
 
   .footer-brainbow{
@@ -470,6 +524,50 @@ nav.navbar {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+  body{
+    background: gray;
+  }
+
+#navbarNav{
+  background: #203348 0% 0% no-repeat padding-box;
+  opacity: 1;
+  padding-bottom: 10%;
+  z-index: 200;
+}
+.nav-link{
+  text-align: left;
+  font-weight: lighter;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+.text-sector{
+  display: inline;
+}
+.negritas-link{
+  font-weight: bold;
+}
+.boton2-menu{
+  display: none;
+}
+.contactar{
+  font-size: 20px;
+  display: block;
+  text-align: left;
+  text-decoration: underline;
+  margin-left: 50px;
+  margin-top: -2%;
+}
+.logo-blanco{
+  display: block;
+  width: 135px;
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 300px;
+}
+
+
 
 /*Somos lo que necesitas*/
 .texto1-seccion6{
@@ -505,7 +603,7 @@ nav.navbar {
     letter-spacing: 0.56px;
     color: #707070;
     opacity: 1;
-    z-index: 2001;
+    z-index: -1;
   }
 
   .texto2-seccion7{
@@ -518,7 +616,7 @@ nav.navbar {
     letter-spacing: 0.56px;
     color: #707070;
     opacity: 1;
-    z-index: 2002;
+    z-index: -1;
   }
 
   .logo-seccion7{
@@ -541,7 +639,16 @@ nav.navbar {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+  body{
+    background: orange;
+  }
 
+/*#navbarNav{
+  background: #203348 0% 0% no-repeat padding-box;
+  opacity: 1;
+  padding-bottom: 10%;
+  z-index: 200;
+}*/
 
 .card-seccion6{
     margin: 5%;
@@ -565,7 +672,7 @@ nav.navbar {
     letter-spacing: 0.56px;
     color: #707070;
     opacity: 1;
-    z-index: 2001;
+    z-index: -1;
   }
 
   .texto2-seccion7{
@@ -578,7 +685,7 @@ nav.navbar {
     letter-spacing: 0.56px;
     color: #707070;
     opacity: 1;
-    z-index: 2002;
+    z-index: -1;
   }
 
   .logo-seccion7{
@@ -594,6 +701,40 @@ nav.navbar {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+  body{
+    background: aquamarine;
+  }
+
+#navbarNav{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 1;
+  padding-bottom: 0%;
+  margin-left: 3%;
+}
+.contactar{
+  display: none;
+}
+.logo-blanco{
+  display: none;
+}
+.boton2-menu{
+  display: inline;
+}
+.nav-link{
+  display: inline-flex;
+  font-size: 15px;
+  color:#6E6E6E;
+  font-weight: 500;
+}
+.negritas-link{
+  font-weight: 500;
+  margin-left: 3%;
+}
+.text-sector{
+  display: none;
+}
+
+
 /*Somos lo que necesitas*/
 .texto1-seccion6{
     text-align: center;
@@ -653,6 +794,12 @@ nav.navbar {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+  body{
+    background: violet;
+  }
+
+
+
 .boton2-menu{
     margin-left: 48.5%;
 }
