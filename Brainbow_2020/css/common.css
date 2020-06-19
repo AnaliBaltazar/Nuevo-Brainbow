@@ -385,9 +385,6 @@ nav.navbar {
 /*------------------MEDIA QUERIES--------------*/
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  body{
-    background: pink;
-  }
 
 /*BARRA DE NAVEGACION*/
 #navbarNav{
@@ -524,9 +521,6 @@ nav.navbar {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  body{
-    background: gray;
-  }
 
 #navbarNav{
   background: #203348 0% 0% no-repeat padding-box;
@@ -639,9 +633,6 @@ nav.navbar {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  body{
-    background: orange;
-  }
 
 /*#navbarNav{
   background: #203348 0% 0% no-repeat padding-box;
@@ -701,9 +692,7 @@ nav.navbar {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  body{
-    background: aquamarine;
-  }
+
 
 #navbarNav{
   background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -794,10 +783,6 @@ nav.navbar {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  body{
-    background: violet;
-  }
-
 
 
 .boton2-menu{
