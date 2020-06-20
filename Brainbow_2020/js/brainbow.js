@@ -1,12 +1,28 @@
-$(document).ready(function(){
+/*$(document).ready(function(){
+  $("#navbarCollapsible").on("hide.bs.collapse", function(){
+    $(".boton-menu").html('<i class="material-icons icono-bm"> menu </i>');
+  });
+  $("#navbarCollapsible").on("show.bs.collapse", function(){
+    $(".boton-menu").html('<i class="material-icons icono-bc">clear</i>');
+  });*/
+
+/*$(document).ready(function(){
   $("#navbarCollapsible").on("hide.bs.collapse", function(){
     $(".boton-menu").html('<i class="material-icons icono-bm"> menu </i>');
   });
   $("#navbarCollapsible").on("show.bs.collapse", function(){
     $(".boton-menu").html('<i class="material-icons icono-bc"> close </i>');
   });
+});*/
 
-
+$(document).ready(function(){
+  $("#navbarNav").on("hide.bs.collapse", function(){
+    $(".boton-menu").html('<i class="material-icons icono-bm">subject</i>');
+  });
+  $("#navbarNav").on("show.bs.collapse", function(){
+    $(".boton-menu").html('<i class="material-icons icono-bc"> close </i>');
+  });
+  });
 
 function validar() {
 

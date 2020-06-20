@@ -19,7 +19,15 @@ nav.navbar {
     margin-left: 20%;
 }
 .material-icons#menu{
-    color: #707070;
+  color: #707070;
+  font-size: 25px;
+}
+.icono-bm{
+  color: #707070;
+}
+.icono-bc{
+  color: #707070;
+  font-size: 25px;
 }
 .nav-link{
   color:#6E6E6E;
@@ -41,8 +49,8 @@ nav.navbar {
   display: none;
 }
 .boton-menu{
-  position: absolute;
-  left: 10%;
+  /*position: absolute;*/
+  left: 85%;
 }
 .contactar{
   display: none;
