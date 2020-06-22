@@ -370,6 +370,7 @@
     margin-bottom: 3%;
 }
 .boton1-about{
+  position: relative;
 	margin-top: 0%;
 	margin-left: 38%;
 }
@@ -412,7 +413,7 @@
 
 .boton1-about{
 	margin-top: 0%;
-	margin-left: 39%;
+	margin-left: 40%;
 }
 .imagen1-about{
 	width: 70%;
