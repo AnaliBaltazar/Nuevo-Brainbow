@@ -41,7 +41,7 @@
   color: #6CBB8E;
   margin-top: 13px;
   opacity: 1;
-  margin-left: 41%;
+  /*margin-left: 41%;*/
 }
 .boton1-about:hover{
   background: #6CBB8E 0% 0% no-repeat padding-box;
@@ -188,8 +188,10 @@
 }
 .boton1-about{
   	position: absolute;
-   	margin-left: 25%;
    	margin-top: 70%;
+    /*margin-left: 25%;*/
+    margin-left: 15%;
+    margin-right: 15%;
 }
 .imagen1-about{
 	width: 100%;
