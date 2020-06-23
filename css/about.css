@@ -187,11 +187,18 @@
     padding-right: 20px;
 }
 .boton1-about{
-  	position: absolute;
+  	/*position: absolute;
    	margin-top: 70%;
-    /*margin-left: 25%;*/
     margin-left: 15%;
-    margin-right: 15%;
+    margin-right: 15%;*/
+    /*margin-left: 25%;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    margin-top: 95%;
 }
 .imagen1-about{
 	width: 100%;
@@ -255,16 +262,23 @@
 	margin-top: 0%;
 }
 .texto2-about{
-	font-size: 15px;
+	  font-size: 15px;
     letter-spacing: 0.28px;
     line-height: 16px;
     padding-left: 20px;
     padding-right: 20px;
 }
 .boton1-about{
-  	position: absolute;
+  	/*position: absolute;
    	margin-left: 30%;
-   	margin-top: 70%;
+   	margin-top: 70%;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    margin-top: 95%;
 }
 .imagen1-about{
 	width: 100%;

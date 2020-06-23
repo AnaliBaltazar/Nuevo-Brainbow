@@ -244,11 +244,18 @@
 
 .boton1-seccion1{
   /*margin-left: 20%;*/
-  position: absolute;
+  /*position: absolute;
   margin-top: 70%;
   margin-left: 11%;
-  margin-right: 11%;
+  margin-right: 11%;*/
   z-index: 200;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  margin-top: 70%;
 }
 .imagen1-seccion1{
   margin-left: 0%
@@ -334,12 +341,18 @@
 }
 
 .boton1-seccion1{
-    position: absolute;
+    /*position: absolute;
     margin-top: 70%;
     margin-left: 25%;
-    margin-right: 25%;
+    margin-right: 25%;*/
     z-index: 200;
-
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    margin-top: 70%;
 }
 .imagen1-seccion1{
     margin-left: 0%
